@@ -20,8 +20,8 @@ export const Messages = () => {
 //   }, [])
   
   return (
-    <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 flex justify-center items-center ">
-    <div className='border-2 rounded-lg border-cyan-400 w-192 h-192 flex overflow-hidden'>
+    <div className="border-2 rounded-lg border-cyan-400  max-h-fit max-w-screen flex justify-center items-center ">
+    <div className='border-2 rounded-lg border-cyan-400 w-full h-full flex '>
         {/*<Sidebar/> */} 
         {/*<Chat/> */} 
         {/*<Register/> */} 
